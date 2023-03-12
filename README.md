@@ -1,6 +1,6 @@
 # Coleccion de Ejemplos SQL
 
-# Ejemplos de Consulta
+## Ejemplos de Consulta
 
 Aqui vemos un ejemplo con las tablas Pedidos y Clientes, para revisar todos los ejemplos, los puedes encontrar en 
 
@@ -29,4 +29,10 @@ LEFT JOIN
 ) as ordt
 ON ord.OrderId = ordt.OrderId
 ```
+
+## Ejemplos de GROUP BY
+
+Aqui vemos un ejemplo con las tablas Pedidos y Clientes, para revisar todos los ejemplos, los puedes encontrar en 
+
+[Ejemplos de Consultas Selects.sql](https://github.com/mluevano/mysql-examples/blob/main/Ejemplos%20de%20Cnosultas%20Selects.sql)
 
