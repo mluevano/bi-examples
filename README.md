@@ -2,7 +2,7 @@
 
 # Ejemplos de Consulta
 
-Aqui vemos un ejemplo con las tablas Pedidos y Clientes
+Aqui vemos un ejemplo con las tablas Pedidos y Clientes, para revisar todos los ejemplos, los puedes encontrar en "Ejemplos de Cnosultas Selects.sql"
 
 ```sql
 select
