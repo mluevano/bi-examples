@@ -2,7 +2,9 @@
 
 # Ejemplos de Consulta
 
-Aqui vemos un ejemplo con las tablas Pedidos y Clientes, para revisar todos los ejemplos, los puedes encontrar en [Ejemplos de Consultas Selects.sql] https://github.com/mluevano/mysql-examples/blob/main/Ejemplos%20de%20Cnosultas%20Selects.sql)"
+Aqui vemos un ejemplo con las tablas Pedidos y Clientes, para revisar todos los ejemplos, los puedes encontrar en 
+
+[Ejemplos de Consultas Selects.sql](https://github.com/mluevano/mysql-examples/blob/main/Ejemplos%20de%20Cnosultas%20Selects.sql)
 
 ```sql
 select
