@@ -102,4 +102,20 @@ Ahora selecciona la siguiente opción dentro de SQL Management Studio para resta
   <img src="https://github.com/mluevano/bi-examples/blob/main/Restore_db_2.png" width="auto" alt="Logo">
 </p>
 
+4. Una vez realizado esto podrás ver que el estado de carga esta listo "Ready", ahora haz clic en "Ok"
 
+<p align="center">
+  <img src="https://github.com/mluevano/bi-examples/blob/main/Restore_db_3.png" width="auto" alt="Logo">
+</p>
+  
+5. Una vez completada la operación tendrás un mensaje de confirmación.
+  
+<p align="center">
+  <img src="https://github.com/mluevano/bi-examples/blob/main/Restore_db_4.png" width="auto" alt="Logo">
+</p>
+
+ 6. Bien ahora ya puedes explorar la base de datos y hacer consultas SQL.
+  
+ <p align="center">
+  <img src="https://github.com/mluevano/bi-examples/blob/main/Restore_db_5.png" width="auto" alt="Logo">
+</p>
