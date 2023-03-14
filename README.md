@@ -2,8 +2,8 @@
 
 - [Introducción](#introducción)
 - [Primeros pasos](#primeros-pasos)
-- [Ejemplos de Consulta](#sección-dos)
-- [Conclusiones](#conclusiones)
+- [Instalación de Docker Desktop](#instalacion-docker)
+- [Restauración de la base de datos AdventureWorks2019](#backup)
 
 ## Introducción
 
@@ -31,7 +31,7 @@ o ve directamente a la página oficial de **SQL Docs Microsoft** y descarga la v
 
 Guarda este archivo en una como **"C:\\AdventureWorks2019.bak"** ya que más tarde usaremos esta ruta para copiar el archivo backup (.bak) a la ruta primaria del contenedor Docker.
 
-### 1.- Instalación de Docker Desktop
+## Instalación de Docker Desktop
 
 Docker es una plataforma de contenedores que permite a los desarrolladores crear, implementar y ejecutar aplicaciones en cualquier entorno. Docker Desktop es la aplicación de escritorio de Docker para Windows y Mac, que proporciona una experiencia de usuario intuitiva para desarrollar y administrar aplicaciones de contenedores.
 
@@ -71,7 +71,7 @@ Aquí un ejemplo de como realizarlo:
   <img src="https://github.com/mluevano/bi-examples/blob/main/LoginSQL.png" width="auto" alt="Logo">
 </p>
 
-### 3.- Restauración de la base de datos AdventureWorks2019
+## Restauración de la base de datos AdventureWorks2019
 
 Para restaurar el backup SQL AdventureWorks2019 en la nueva instancia de SQL dentro de nuestro contenedor Docker, necesitarás utilizar la línea de comandos de tu sistema operativo para copiar el archivo ***AdventureWorks2019.bak***.
 
