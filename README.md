@@ -2,8 +2,8 @@
 
 - [Introducción](#introducción)
 - [Primeros pasos](#primeros-pasos)
-- [Instalación de Docker Desktop](#instalacion-docker)
-- [Restauración de la base de datos AdventureWorks2019](#backup)
+- [Instalación de Docker Desktop](#Instalación-de-docker-desktop)
+- [Restauración base de datos AdventureWorks2019](#restauración-base-de-datos-adventureWorks2019)
 
 ## Introducción
 
@@ -71,7 +71,7 @@ Aquí un ejemplo de como realizarlo:
   <img src="https://github.com/mluevano/bi-examples/blob/main/LoginSQL.png" width="auto" alt="Logo">
 </p>
 
-## Restauración de la base de datos AdventureWorks2019
+## Restauración base de datos AdventureWorks2019
 
 Para restaurar el backup SQL AdventureWorks2019 en la nueva instancia de SQL dentro de nuestro contenedor Docker, necesitarás utilizar la línea de comandos de tu sistema operativo para copiar el archivo ***AdventureWorks2019.bak***.
 
