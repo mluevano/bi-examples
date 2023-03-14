@@ -67,3 +67,32 @@ Asegúrate de reemplazar <MyPassword> con una contraseña segura para el usuario
 
 Aquí un ejemplo de como realizarlo:
 
+<p align="center">
+  <img src="https://raw.githubusercontent.com/mluevano/bi-examples/main/Images/LoginSQL.png?token=GHSAT0AAAAAAB6HQ442ZVGD3EQXPKMQMYBWZAQ3KAA" width="auto" alt="Logo">
+</p>
+
+### 3.- Restauración de la base de datos AdventureWorks2019
+
+Para restaurar el backup SQL AdventureWorks2019 en la nueva instancia de SQL dentro de nuestro contenedor Docker, necesitarás utilizar la línea de comandos de tu sistema operativo para copiar el archivo ***AdventureWorks2019.bak***.
+
+Sigue los siguientes pasos para realizar la instalación de SQL en Docker:
+
+1. Abre una consola en tu sistema operativo cmd
+
+2. Copia el archivo AdventureWorks2019.bak a la carpeta raíz del contenedor docker con el siguiente comando:
+
+```bash
+docker cp C:\AdventureWorks2019.bak sql_c1:/
+```
+
+Una vez realizado esto podrás visualizarlo dentro del contenedor docker y continuar con la restauración.
+
+Ahora selecciona la siguiente opción dentro de SQL Management Studio para restaurar la base de datos:
+
+1. Despliega la carpeta Databases dando clic en la cruz [+]
+2. Click derecho sobre la carpeta Databases y elige la opción *Restore Database* 
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/mluevano/bi-examples/main/Images/LoginSQL.png?token=GHSAT0AAAAAAB6HQ442ZVGD3EQXPKMQMYBWZAQ3KAA" width="auto" alt="Logo">
+</p>
+
