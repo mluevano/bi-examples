@@ -119,3 +119,5 @@ Ahora selecciona la siguiente opción dentro de SQL Management Studio para resta
  <p align="center">
   <img src="https://github.com/mluevano/bi-examples/blob/main/Restore_db_5.png" width="auto" alt="Logo">
 </p>
+
+ Aquí comienza tu camino al analisis de datos con SQL y Power BI.
