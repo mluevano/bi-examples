@@ -93,7 +93,7 @@ Ahora selecciona la siguiente opción dentro de SQL Management Studio para resta
 2. Click derecho sobre la carpeta Databases y elige la opción *Restore Database* 
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/mluevano/bi-examples/main/Images/Restore_db_1.png?token=GHSAT0AAAAAAB6HQ443JN5MHLZZYVZUF5P2ZAQ3WCA" width="auto" alt="Logo">
+  <img src="https://github.com/mluevano/bi-examples/blob/main/Restore_db_1.png" width="auto" alt="Logo">
 </p>
 
 3. Busca el archivo *AdventureWorks2019.bak* dando clic
