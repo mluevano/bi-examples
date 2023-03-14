@@ -96,5 +96,10 @@ Ahora selecciona la siguiente opción dentro de SQL Management Studio para resta
   <img src="https://github.com/mluevano/bi-examples/blob/main/Restore_db_1.png" width="auto" alt="Logo">
 </p>
 
-3. Busca el archivo *AdventureWorks2019.bak* dando clic
+3. Busca el archivo *AdventureWorks2019.bak* dando clic sobre la opción "device" y luego en los tres puntos [...]
+
+<p align="center">
+  <img src="https://github.com/mluevano/bi-examples/blob/main/Restore_db_2.png" width="auto" alt="Logo">
+</p>
+
 
