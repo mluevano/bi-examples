@@ -3,6 +3,7 @@
 - [Introducción](#introducción)
 - [Primeros pasos](#primeros-pasos)
 - [Instalación de Docker Desktop](#Instalación-de-docker-desktop)
+- [Instalación SQL Server Linux en Docker Container](#instalación-sql-server-linux-en-docker-container)
 - [Restauración base de datos AdventureWorks2019](#restauración-base-de-datos-adventureWorks2019)
 
 ## Introducción
@@ -47,7 +48,7 @@ Para instalar Docker Desktop, sigue los siguientes pasos:
 
 ¡Listo! Ahora tienes Docker Desktop instalado en tu sistema. Puedes empezar a utilizarlo para crear, ejecutar y administrar aplicaciones de contenedores.
 
-### 2.- Instalación SQL Server con Linux en Docker Container
+## Instalación SQL Server Linux en Docker Container
 
 Para instalar SQL en un contenedor de Docker, necesitarás utilizar la línea de comandos de tu sistema operativo. En Windows, esto se conoce como "Command Prompt" o "cmd", mientras que en MacOS y Linux se llama "Terminal". En adelante, nos referiremos a la línea de comandos como "consola".
 
