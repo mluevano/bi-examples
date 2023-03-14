@@ -6,17 +6,15 @@
 
 ## Introducción
 
-Bienvenido/a al repositorio de ejemplo para el uso de SQL y BI. Este repositorio tiene como objetivo proporcionar ejemplos prácticos y guías útiles para aquellos que estén interesados en aprender sobre SQL y BI.
+Power BI es una herramienta de Business Intelligence (BI) que permite a los usuarios conectarse a una amplia variedad de fuentes de datos, transformar y visualizar los datos de una manera significativa y atractiva. Power BI se utiliza para analizar y compartir datos con colegas y clientes a través de informes y paneles interactivos.
 
-### ¿Power BI
-SQL (Structured Query Language) es un lenguaje de programación utilizado para administrar y manipular bases de datos relacionales. Se utiliza para realizar diversas tareas, como la creación de bases de datos, la inserción de datos en ellas, la modificación de datos existentes y la eliminación de datos. SQL es un lenguaje muy popular entre los desarrolladores y analistas de datos debido a su facilidad de uso y su capacidad para manejar grandes conjuntos de datos.
+Características de Power BI
+Las principales características de Power BI incluyen:
 
-### ¿Qué es BI?
-BI (Business Intelligence) es un conjunto de tecnologías y herramientas que se utilizan para analizar y presentar datos empresariales. BI se utiliza para ayudar a las empresas a tomar decisiones informadas, basadas en datos, sobre su rendimiento y estrategias. BI incluye herramientas para la visualización de datos, la elaboración de informes, el análisis de datos y la minería de datos.
-
-En este repositorio, encontrarás ejemplos prácticos de cómo utilizar SQL y BI juntos para analizar y visualizar datos empresariales. También encontrarás guías útiles sobre cómo crear bases de datos, escribir consultas SQL y utilizar herramientas de BI populares como Tableau y Power BI.
-
-¡Esperamos que encuentres este repositorio útil y que te ayude a aprender más sobre SQL y BI!
+Conexión a una amplia variedad de fuentes de datos.
+Transformación y limpieza de datos.
+Creación de visualizaciones personalizadas para representar los datos de manera clara y comprensible.
+Compartir informes y paneles con colegas y clientes.
 
 ## Primeros pasos
 
