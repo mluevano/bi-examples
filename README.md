@@ -68,7 +68,7 @@ Asegúrate de reemplazar <MyPassword> con una contraseña segura para el usuario
 Aquí un ejemplo de como realizarlo:
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/mluevano/bi-examples/main/Images/LoginSQL.png?token=GHSAT0AAAAAAB6HQ442ZVGD3EQXPKMQMYBWZAQ3KAA" width="auto" alt="Logo">
+  <img src="https://github.com/mluevano/bi-examples/blob/main/LoginSQL.png" width="auto" alt="Logo">
 </p>
 
 ### 3.- Restauración de la base de datos AdventureWorks2019
