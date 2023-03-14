@@ -69,7 +69,7 @@ Asegúrate de reemplazar <MyPassword> con una contraseña segura para el usuario
 Aquí un ejemplo de como realizarlo:
 
 <p align="center">
-  <img src="https://github.com/mluevano/bi-examples/blob/main/LoginSQL.png" width="auto" alt="Logo">
+  <img src="https://github.com/mluevano/bi-examples/blob/main/Images/InstalacionSQL/LoginSQL.png" width="auto" alt="Logo">
 </p>
 
 ## Restauración base de datos AdventureWorks2019
@@ -94,31 +94,31 @@ Ahora selecciona la siguiente opción dentro de SQL Management Studio para resta
 2. Click derecho sobre la carpeta Databases y elige la opción *Restore Database* 
 
 <p align="center">
-  <img src="https://github.com/mluevano/bi-examples/blob/main/Restore_db_1.png" width="auto" alt="Logo">
+  <img src="https://github.com/mluevano/bi-examples/blob/main/Images/InstalacionSQL/Restore_db_1.png" width="auto" alt="Logo">
 </p>
 
 3. Busca el archivo *AdventureWorks2019.bak* dando clic sobre la opción "device" y luego en los tres puntos [...]
 
 <p align="center">
-  <img src="https://github.com/mluevano/bi-examples/blob/main/Restore_db_2.png" width="auto" alt="Logo">
+  <img src="https://github.com/mluevano/bi-examples/blob/main/Images/InstalacionSQL/Restore_db_2.png" width="auto" alt="Logo">
 </p>
 
 4. Una vez realizado esto podrás ver que el estado de carga esta listo "Ready", ahora haz clic en "Ok"
 
 <p align="center">
-  <img src="https://github.com/mluevano/bi-examples/blob/main/Restore_db_3.png" width="auto" alt="Logo">
+  <img src="https://github.com/mluevano/bi-examples/blob/main/Images/InstalacionSQL/Restore_db_3.png" width="auto" alt="Logo">
 </p>
   
 5. Una vez completada la operación tendrás un mensaje de confirmación.
   
 <p align="center">
-  <img src="https://github.com/mluevano/bi-examples/blob/main/Restore_db_4.png" width="auto" alt="Logo">
+  <img src="https://github.com/mluevano/bi-examples/blob/main/Images/InstalacionSQL/Restore_db_4.png" width="auto" alt="Logo">
 </p>
 
  6. Bien ahora ya puedes explorar la base de datos y hacer consultas SQL.
   
  <p align="center">
-  <img src="https://github.com/mluevano/bi-examples/blob/main/Restore_db_5.png" width="auto" alt="Logo">
+  <img src="https://github.com/mluevano/bi-examples/blob/main/Images/InstalacionSQL/Restore_db_5.png" width="auto" alt="Logo">
 </p>
 
  Aquí comienza tu camino al analisis de datos con SQL y Power BI.
