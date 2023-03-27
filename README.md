@@ -63,7 +63,7 @@ docker volume create mssql9
 ```
 
 ```bash
-docker run -e "ACCEPT_EULA=Y" -e "SA_PASSWORD=Chikerr5341" -e "MSSQL_PID=Developer" -p 127.0.0.2:1433:1433 -v mssql9:/var/opt/mssql --name sql_c1 -d mcr.microsoft.com/mssql/server:2019-latest
+docker run -e "ACCEPT_EULA=Y" -e "SA_PASSWORD=<MyPassword>" -e "MSSQL_PID=Developer" -p 127.0.0.2:1433:1433 -v mssql9:/var/opt/mssql --name sql_c1 -d mcr.microsoft.com/mssql/server:2019-latest
 ```
 
 Asegúrate de reemplazar <MyPassword> con una contraseña segura para el usuario **SA** de SQL Server.
