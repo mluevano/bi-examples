@@ -59,7 +59,11 @@ Sigue los siguientes pasos para realizar la instalación de SQL en Docker:
 2. Descarga la imagen e instala SQL Server 2019 en un contenedor de Docker utilizando el siguiente comando:
 
 ```bash
-docker run --name local-redis -d -p 127.0.0.3:6379:6379 -v redis-data:/data redis redis-server --requirepass <MyPassword> --bind 0.0.0.0 --save 60 1 --loglevel warning --maxclients 100
+docker volume create mssql9
+```
+
+```bash
+docker run -e "ACCEPT_EULA=Y" -e "SA_PASSWORD=Chikerr5341" -e "MSSQL_PID=Developer" -p 127.0.0.2:1433:1433 -v mssql9:/var/opt/mssql --name sql_c1 -d mcr.microsoft.com/mssql/server:2019-latest
 ```
 
 Asegúrate de reemplazar <MyPassword> con una contraseña segura para el usuario **SA** de SQL Server.
