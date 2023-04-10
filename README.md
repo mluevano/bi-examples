@@ -40,11 +40,11 @@ Para instalar Docker Desktop, sigue los siguientes pasos:
 
 1. Descarga Docker Desktop desde la página web oficial de Docker. Selecciona la versión adecuada para tu sistema operativo (Windows o Mac) y descarga el instalador.
 
-2. Ejecuta el instalador de Docker Desktop. Se te pedirá que aceptes los términos y condiciones de uso de Docker.
+1. Ejecuta el instalador de Docker Desktop. Se te pedirá que aceptes los términos y condiciones de uso de Docker.
 
-3. En el proceso de instalación, se te pedirá que elijas las opciones de configuración de Docker Desktop. Puedes seleccionar las opciones por defecto o personalizarlas según tus necesidades.
+1. En el proceso de instalación, se te pedirá que elijas las opciones de configuración de Docker Desktop. Puedes seleccionar las opciones por defecto o personalizarlas según tus necesidades.
 
-4. Una vez completada la instalación, Docker Desktop se iniciará automáticamente. Puedes comprobar que se ha instalado correctamente abriendo una ventana de terminal y ejecutando el comando docker version.
+1. Una vez completada la instalación, Docker Desktop se iniciará automáticamente. Puedes comprobar que se ha instalado correctamente abriendo una ventana de terminal y ejecutando el comando docker version.
 
 ¡Listo! Ahora tienes Docker Desktop instalado en tu sistema. Puedes empezar a utilizarlo para crear, ejecutar y administrar aplicaciones de contenedores.
 
