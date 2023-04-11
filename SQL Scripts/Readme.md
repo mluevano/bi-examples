@@ -22,4 +22,54 @@ Al igual que la consulta anterior, la consulta utiliza varios joins para combina
 
 Para utilizar estas consultas, simplemente copie y pegue la consulta deseada en su editor de SQL preferido y ejecútela en la base de datos bill. Asegúrese de tener los permisos necesarios para acceder a la base de datos y a las tablas correspondientes antes de ejecutar estas consultas.
 
+Ejemplo de Union de SalesOrders y Customers
+
+'''sql
+select
+*,
+Notes,
+FirstName,
+from 
+bill.Customer cst
+LEFT JOIN bill.Orders ord 
+on cst.CustomerID = ord.CustomerId
+INNER JOIN
+bill.ORderStatus ords 
+on ord.OrderStatusId = ords.StatusId
+LEFT JOIN
+(
+	SELECT Count(Total) as Todal 
+	FROM bill.Orders where OrderId not in 
+		(
+			Select * from bill.Customers where CreationDate= GEtdate()
+			
+		)
+) as ordt
+ON ord.OrderId = ordt.OrderId
+
+--## Consulta de Clientes
+
+select
+*,
+Notes,
+FirstName,
+from 
+bill.Customer cst
+LEFT JOIN bill.Orders ord 
+on cst.CustomerID = ord.CustomerId
+INNER JOIN
+bill.ORderStatus ords 
+on ord.OrderStatusId = ords.StatusId
+LEFT JOIN
+(
+	SELECT Count(Total) as Todal 
+	FROM bill.Orders where OrderId not in 
+		(
+			Select * from bill.Customers where CreationDate= GEtdate()
+			
+		)
+) as ordt
+ON ord.OrderId = ordt.OrderId
+'''
+
 ¡Eso es todo! Espero que esta documentación sea útil para utilizar estas consultas en su proyecto. Si tiene alguna pregunta o sugerencia, no dude en crear un problema en este repositorio.
