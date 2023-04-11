@@ -6,8 +6,10 @@ Este repositorio contiene dos consultas de SQL para la tabla de Customer y Order
 La consulta Consulta de Pedidos muestra una lista de todos los pedidos de los clientes en la tabla Customer. La consulta utiliza las siguientes tablas:
 
 Customer: Esta tabla contiene información sobre los clientes, como su nombre, dirección, etc.
+
 Orders: Esta tabla contiene información sobre los pedidos realizados por los clientes, como el ID del cliente, la fecha del pedido, el estado del pedido, etc.
 OrderStatus: Esta tabla contiene información sobre los estados posibles de los pedidos, como "Enviado", "Entregado", etc.
+
 La consulta utiliza varios joins para combinar la información de estas tablas y mostrar información detallada sobre los pedidos de los clientes. Además, la consulta también utiliza una subconsulta para contar el número total de pedidos que no están relacionados con ningún cliente en la tabla Customer.
 
 ## Consulta de Clientes
