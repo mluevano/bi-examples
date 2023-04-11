@@ -24,7 +24,7 @@ Para utilizar estas consultas, simplemente copie y pegue la consulta deseada en 
 
 Ejemplo de Union de SalesOrders y Customers
 
-'''sql
+´´´sql
 select
 *,
 Notes,
@@ -70,6 +70,6 @@ LEFT JOIN
 		)
 ) as ordt
 ON ord.OrderId = ordt.OrderId
-'''
+´´´
 
 ¡Eso es todo! Espero que esta documentación sea útil para utilizar estas consultas en su proyecto. Si tiene alguna pregunta o sugerencia, no dude en crear un problema en este repositorio.
